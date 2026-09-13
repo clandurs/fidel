@@ -1,0 +1,18 @@
+{
+  "name": "com.fidel.importer",
+  "version": "0.0.1",
+  "displayName": "Fidel Importer",
+  "description": "Nonfunctional Editor-only scaffold for the planned Fidel Unity import orchestrator. No importer behavior is implemented.",
+  "unity": "6000.3",
+  "unityRelease": "23f1",
+  "dependencies": {},
+  "keywords": [
+    "unity",
+    "editor",
+    "importer",
+    "fidel"
+  ],
+  "author": {
+    "name": "clandurs"
+  }
+}

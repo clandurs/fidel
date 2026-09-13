@@ -2,7 +2,11 @@
 
 Fidel is an Editor-only Unity 6.3 LTS import orchestrator that safely quarantines, hashes, identifies, validates, and routes non-code assets through Unity's native import pipeline—with archive defenses, deterministic dry-run manifests, provenance records, and auditable rollback.
 
-> **Status:** Research-backed design and Phase A implementation planning only. This repository does not yet contain an importer implementation.
+> **Status:** Research-backed design, Phase A implementation planning, and an authorized nonfunctional Editor-only C# scaffold. No importer behavior is implemented.
+
+## Scaffold boundary
+
+`Packages/com.fidel.importer` contains only Unity package metadata, an Editor-only assembly definition, and an empty C# marker type. It has no runtime assembly, Unity API calls, importer, postprocessor, package dependency, network behavior, or asset-processing behavior.
 
 ## Documentation
 
